@@ -14,12 +14,12 @@ public class LoginController {
 
     @RequestMapping("/login")
     public String userLogin(){
-        return "login";
+        return "login2";
     }
 
-    @RequestMapping("/index")
+    @RequestMapping("/order")
     public String userIndex(){
-        return "index";
+        return "order";
     }
 
     @RequestMapping("/loginError")
@@ -34,20 +34,6 @@ public class LoginController {
         return SecurityContextHolder.getContext().getAuthentication().getPrincipal();
     }
 
-    @RequestMapping("/work")
-    public String work(){
-        return "work";
-    }
-
-    @RequestMapping("/setting")
-    public String setting(){
-        return "setting";
-    }
-
-    @RequestMapping("/select")
-    public String select(){
-        return "select";
-    }
 
 //    @RequestMapping("/403")
 //    @PreAuthorize("hasRole('ROLE_ADMIN')")

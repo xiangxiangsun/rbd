@@ -32,7 +32,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http
                 .authorizeRequests()
                 //放行登陆所需资源
-//                .antMatchers("/css/*.css").permitAll()
+                .antMatchers("/css/*.css").permitAll()
+                .antMatchers("/fonts/**").permitAll()
+                .antMatchers("/img/*.jpg").permitAll()
+                .antMatchers("/js/*.js").permitAll()
+                .antMatchers("/plugins/**").permitAll()
 
                 //这就表示 /index这个页面不需要权限认证，所有人都可以访问
 //                .antMatchers("/whoim").permitAll()

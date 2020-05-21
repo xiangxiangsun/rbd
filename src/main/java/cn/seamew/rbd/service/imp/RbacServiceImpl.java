@@ -63,6 +63,7 @@ public class RbacServiceImpl implements RbacService {
             for (String menuId : menuIds) {
                 urls.add("/" + menuMapper.selectUrlById(menuId));
             }
+            urls.add("/order");
             urls.add("/whoim");
 //        System.out.println(urls);
             //注意这里不能用equals判断，因为有些URL是有参数的，所以要用AntPathMatcher来比较
