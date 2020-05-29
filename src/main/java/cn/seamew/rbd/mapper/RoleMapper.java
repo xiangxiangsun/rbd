@@ -1,6 +1,6 @@
 package cn.seamew.rbd.mapper;
 
-import cn.seamew.rbd.entity.SysRole;
+import cn.seamew.rbd.modules.entity.SysRole;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;

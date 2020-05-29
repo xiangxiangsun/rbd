@@ -1,6 +1,6 @@
 package cn.seamew.rbd.service;
 
-import cn.seamew.rbd.entity.SysRole;
+import cn.seamew.rbd.modules.entity.SysRole;
 import cn.seamew.rbd.mapper.RoleMapper;
 import org.springframework.stereotype.Service;
 

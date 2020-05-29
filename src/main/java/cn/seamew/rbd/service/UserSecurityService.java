@@ -1,6 +1,6 @@
 package cn.seamew.rbd.service;
 
-import cn.seamew.rbd.entity.SysUser;
+import cn.seamew.rbd.modules.entity.SysUser;
 import cn.seamew.rbd.mapper.UserMapper;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package cn.seamew.rbd.entity;
+package cn.seamew.rbd.modules.entity;
 
 import java.util.HashSet;
 import java.util.Set;

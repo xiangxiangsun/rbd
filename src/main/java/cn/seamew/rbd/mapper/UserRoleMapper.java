@@ -1,7 +1,7 @@
 package cn.seamew.rbd.mapper;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import cn.seamew.rbd.entity.SysUserRole;
+import cn.seamew.rbd.modules.entity.SysUserRole;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
